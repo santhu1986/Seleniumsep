@@ -1,0 +1,9 @@
+Feature: Admin Login
+
+Scenario: Verify Admin Login Functionality
+
+Given User should on RanfordHome Page
+
+When User enters Username Password click on Login
+
+Then User Validates Admin login

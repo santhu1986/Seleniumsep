@@ -1,0 +1,330 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Admin Login Functionality",
+        "description": "",
+        "id": "admin-login;verify-admin-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11743596200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should on RanfordHome Page",
+            "match": {
+              "location": "Adminlogin.user_should_on_RanfordHome_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1780365900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"Admin\" and \"Testing@\" click on Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "Testing@",
+                  "offset": 25
+                }
+              ],
+              "location": "Adminlogin.user_enters_Username_Password_click_on_Login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66486500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Validates Admin login",
+            "match": {
+              "location": "Adminlogin.user_Validates_Admin_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login",
+    "description": "",
+    "id": "admin-login",
+    "keyword": "Feature",
+    "uri": "E:/Mrngselaug/Ebanking/src/Feature/Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Verify Role Creation with Multiple sets of Data",
+        "description": "",
+        "id": "role-creation;verify-role-creation-with-multiple-sets-of-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14625082700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester should on Ranford Home Page",
+            "match": {
+              "location": "Rolecre.tester_should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1030923700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester Enters Username and Password",
+            "match": {
+              "location": "Rolecre.tester_Enters_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4982626500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester click on Role button",
+            "match": {
+              "location": "Rolecre.tester_click_on_Role_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13416128700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tester click New Role and enters \"Clerkdfb\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Clerkdfb",
+                  "offset": 34
+                },
+                {
+                  "val": "E",
+                  "offset": 49
+                }
+              ],
+              "location": "Rolecre.tester_click_New_Role_and_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1998137800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tester close the Application",
+            "match": {
+              "location": "Rolecre.tester_close_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify Role Creation with Multiple sets of Data",
+        "description": "",
+        "id": "role-creation;verify-role-creation-with-multiple-sets-of-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10199498600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester should on Ranford Home Page",
+            "match": {
+              "location": "Rolecre.tester_should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1308066200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester Enters Username and Password",
+            "match": {
+              "location": "Rolecre.tester_Enters_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4239944500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester click on Role button",
+            "match": {
+              "location": "Rolecre.tester_click_on_Role_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13405407900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tester click New Role and enters \"Tellerdfb\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tellerdfb",
+                  "offset": 34
+                },
+                {
+                  "val": "E",
+                  "offset": 50
+                }
+              ],
+              "location": "Rolecre.tester_click_New_Role_and_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1991786400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tester close the Application",
+            "match": {
+              "location": "Rolecre.tester_close_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify Role Creation with Multiple sets of Data",
+        "description": "",
+        "id": "role-creation;verify-role-creation-with-multiple-sets-of-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10909100500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester should on Ranford Home Page",
+            "match": {
+              "location": "Rolecre.tester_should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1614672000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester Enters Username and Password",
+            "match": {
+              "location": "Rolecre.tester_Enters_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4259399900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester click on Role button",
+            "match": {
+              "location": "Rolecre.tester_click_on_Role_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13395740900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tester click New Role and enters \"Managerdfb\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Managerdfb",
+                  "offset": 34
+                },
+                {
+                  "val": "E",
+                  "offset": 51
+                }
+              ],
+              "location": "Rolecre.tester_click_New_Role_and_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1807425600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tester close the Application",
+            "match": {
+              "location": "Rolecre.tester_close_the_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Role Creation",
+    "description": "",
+    "id": "role-creation",
+    "keyword": "Feature",
+    "uri": "E:/Mrngselaug/Ebanking/src/Feature/Role.feature"
+  }
+]

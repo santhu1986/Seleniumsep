@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Ebanking/chromedriver.exe&apos; to &apos;asa.exe&apos;" description="Rename resource &apos;chromedriver.exe&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="chromedriver.exe" name="asa.exe" stamp="1631848850076" updateReferences="true"/>
+</session>

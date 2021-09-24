@@ -1,0 +1,4 @@
+RoleName###Roletype###Results
+Managerabc###E%%%%Role Already existed
+GManagerpqr###E%%%%Role Already existed
+AManagerxyz###E%%%%New Role with id 1723 Created Sucessfully
